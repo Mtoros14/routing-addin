@@ -1,19 +1,16 @@
 {
-  "name": "Routing Module",
-  "supportEmail": "soporte@tuempresa.com",
-  "version": "1.0.0",
-  "items": [
-    {
-      "url": "index.html",
-      "path": "map",
-      "menuName": {
-        "en": "Route Planner",
-        "es": "Planificador de Rutas"
-      },
-      "icon": "images/icon.svg"
-    }
-  ],
-  "isSigned": false,
-  "key": "",
-  "signature": ""
+    "name": "Routing Module",
+    "supportEmail": "soporte@routemanager.com",
+    "version": "4.0.0",
+    "items": [
+        {
+            "page": "map",
+            "title": "routing-addin",
+            "noView": false,
+            "mapScript": {
+                "url": "https://mtoros14.github.io/routing-addin/index.html"
+            }
+        }
+    ],
+    "isSigned": false
 }
